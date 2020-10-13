@@ -5,6 +5,6 @@ const PetInformationItem = props =>
         <dt>{props.name}</dt>
         <dd>{props.value}</dd>
     </>
-
+;
 
 export default PetInformationItem;
