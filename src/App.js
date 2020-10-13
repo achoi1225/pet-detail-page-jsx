@@ -2,9 +2,9 @@ import React from 'react';
 
 import PetDetailPage from './PetDetailPage';
 
-function App() {
+function App(props) {
   return (
-   <PetDetailPage />
+   <PetDetailPage pet = {props.pet}/>
   );
 }
 
